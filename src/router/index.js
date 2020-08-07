@@ -19,6 +19,14 @@ export default new VueRouter({
     {
       path: '/historys',
       component: Historys
+    },
+    {
+      path: '/files',
+      component: Repostory
+    },
+    {
+      path: '/videos',
+      component: Historys
     }
   ],
   mode: 'history'
