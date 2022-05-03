@@ -11,12 +11,12 @@
       <img slot="item-icon-active" src="~assets/img/tabbar/repertory.png" alt="">
       <div slot="item-text">历史记录</div>
     </tab-bar-item>
-    <tab-bar-right-item slot="tab-bar-right" path="/files" :line="false" >
-      <div slot="item-text" >文件</div>
-    </tab-bar-right-item>
-    <tab-bar-right-item slot="tab-bar-right" path="/videos" :line="true" >
-      <div slot="item-text" >及时</div>
-    </tab-bar-right-item>
+<!--    <tab-bar-right-item slot="tab-bar-right" path="/files" :line="false" >-->
+<!--      <div slot="item-text" >文件</div>-->
+<!--    </tab-bar-right-item>-->
+<!--    <tab-bar-right-item slot="tab-bar-right" path="/videos" :line="true" >-->
+<!--      <div slot="item-text" >及时</div>-->
+<!--    </tab-bar-right-item>-->
   </tab-bar>
 </template>
 
@@ -35,5 +35,5 @@
 </script>
 <style scoped>
 /* @import url(); 引入css类 */
-  
+
 </style>
